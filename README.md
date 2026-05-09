@@ -65,7 +65,7 @@ docker compose down -v    # also wipe MongoDB volume
 ```bash
 cd backend
 npm install
-cp .env
+# create backend/.env 
 npm run start:dev
 ```
 

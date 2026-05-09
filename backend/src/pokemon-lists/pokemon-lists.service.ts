@@ -10,7 +10,7 @@ import {
   PokemonList,
   PokemonListDocument,
 } from './schemas/pokemon-list.schema';
-import { PokeapiService } from 'src/pokeapi/pokeapi.service';
+import { PokeapiService } from '../pokeapi/pokeapi.service';
 
 @Injectable()
 export class PokemonListsService {

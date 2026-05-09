@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, Res } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Delete, Res } from '@nestjs/common';
 import { PokemonListsService } from './pokemon-lists.service';
 import { CreatePokemonListDto } from './dto/create-pokemon-list.dto';
 import type { Response } from 'express';

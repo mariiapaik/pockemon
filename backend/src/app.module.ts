@@ -17,7 +17,5 @@ import { PokeapiModule } from './pokeapi/pokeapi.module';
     PokemonListsModule,
     PokeapiModule,
   ],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {}

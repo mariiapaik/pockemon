@@ -172,6 +172,7 @@ export function CreateListPage() {
         <input
           type="text"
           placeholder="e.g. Starter trio"
+          maxLength={100}
           value={name}
           onChange={(e) => setName(e.target.value)}
           className="w-full bg-slate-950/60 border border-slate-700 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/30 outline-none rounded-xl px-4 py-2.5 mb-5 text-white transition"
