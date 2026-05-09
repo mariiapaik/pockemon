@@ -27,12 +27,12 @@ export class PokemonListsController {
     return this.pokemonListsService.remove(id);
   }
 
-  @Get(':id/dowload')
+  @Get(':id/download')
   async download(@Param('id') id: string, @Res() res: Response) {
     const { filename, payload } = await this.pokemonListsService.exportToFile(id);
 
     res.set({
-      'COntent-Type': 'application/json',
+      'Content-Type': 'application/json',
       'Content-Disposition': `attachment; filename="${filename}"`,
     });
     res.send(payload);

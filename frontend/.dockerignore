@@ -1,0 +1,6 @@
+node_modulesdist
+.env
+.env.local
+.git
+*.log
+README.mg
