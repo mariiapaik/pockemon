@@ -1,6 +1,7 @@
-node_modulesdist
+node_modules
+dist
 .env
 .env.local
 .git
 *.log
-README.mg
+README.md
